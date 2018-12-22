@@ -3,7 +3,9 @@
 # Dungeon Crawl Stone Soup: randart hell
 
 (WIP) All generated weapons, armours, and jewelleries are randarts.
+
 (untested) All artefects are auto-identified.
+
 (WIP) Unlimited or expanded inventory.
 
 ## Pros:
