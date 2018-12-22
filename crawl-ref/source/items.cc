@@ -966,6 +966,14 @@ static bool _id_floor_item(item_def &item)
             return true;
         }
     }
+    else if (item.base_type == OBJ_JEWELLERY
+             || item.base_type == OBJ_WEAPONS
+             || item.base_type == OBJ_ARMOUR
+             || item.base_type == OBJ_STAVES)
+    {
+        if (fully_identified(item))
+            return false;
+    }
 
     return false;
 }
